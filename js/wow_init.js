@@ -1,3 +1,15 @@
+var arr = document.getElementsByClassName("recent-post-item");
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add("wow"); //必要项，添加wow.js标记
+    arr[i].classList.add("animate__zoomIn"); //必要项，添加样式动画
+  }
+// 给侧栏卡片套上动画
+var arr = document.getElementsByClassName("card-widget");
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add("wow");
+    arr[i].classList.add("animate__slideInRight");
+  }
+//初始化函数
 wow = new WOW({
   boxClass: 'wow',
   // 当用户滚动时显示隐藏框的类名称
