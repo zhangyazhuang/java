@@ -9,6 +9,12 @@ for(var i = 0;i<arr.length;i++){
     arr[i].classList.add("wow");
     arr[i].classList.add("animate__slideInRight");
   }
+//给友链页面套上动画
+var arr = document.getElementsByClassName("flink-list-card");
+for(var i = 0;i<arr.length;i++){
+   arr[i].classList.add("wow");
+   arr[i].classList.add("animate__flipInY");
+  }
 //初始化函数
 wow = new WOW({
   boxClass: 'wow',
