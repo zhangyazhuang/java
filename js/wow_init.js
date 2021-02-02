@@ -15,6 +15,12 @@ for(var i = 0;i<arr.length;i++){
    arr[i].classList.add("wow");
    arr[i].classList.add("animate__flipInY");
   }
+//给时间轴套上动画
+var arr = document.getElementsByClassName("article-sort-item");
+for(var i = 0;i<arr.length;i++){
+   arr[i].classList.add("wow");
+   arr[i].classList.add("animate__zoomIn");
+  }
 //初始化函数
 wow = new WOW({
   boxClass: 'wow',
