@@ -1,5 +1,5 @@
 $(function(){
-  var NY = Math.round((new Date('4/17/2019 00:00:00')).getTime()/1000);
+  var NY = Math.round((new Date('1/01/2021 00:00:00')).getTime()/1000);
   $('#runtime').flipcountdown({
     size:"xs",
     tick:function(){
